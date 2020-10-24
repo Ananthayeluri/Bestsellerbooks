@@ -1,0 +1,72 @@
+*{
+  margin:0;
+  box-sizing: border-box;
+  padding: 0;
+  }
+  
+  
+  
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: rgb(214, 227, 228);
+    color:black;
+    padding:15px;
+    
+  }
+  
+  .booklist{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  padding: 30px;   
+  grid-area:auto;
+  grid-template-rows:min-content;
+  
+  }
+  
+  img{
+    width:350px;
+    height:230px;
+    display:flex;
+    
+  }
+  h4{
+    color:#617d98;
+    font-size:0.75rem;
+    margin-top:0.25rem;
+  }
+  .book{
+    background: ivory;
+    box-sizing:border-box;
+    padding: 25px;
+    border-radius:5px;
+    box-shadow: 0 2px 5px 1px rgba(0,0,0,.2);
+    font-size:13px;
+    line-height:19px;
+    
+  }
+  
+  ul li{
+    list-style-type: none;
+    display:block; 
+  
+  }
+  .title{
+    text-align: center;
+  }
+  #demo{
+    color:rebeccapurple;
+    font-size:2.25em;
+    font-family:serif;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+  }
+  button{
+  align-content: center;
+  }
